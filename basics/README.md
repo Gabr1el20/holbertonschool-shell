@@ -12,3 +12,4 @@ cd - : changes the working directory to the previous one.
 ls -la ../basics ../ /boot: list all files of the directories mentioned, in long format
 file /tmp/iamafile : prints the type of the file mentioned
 ln -s /bin/ls __ls__ : Creates a symbolic link in the mentioned path.
+cp -u *.html /holbertonschool-shell : copy all the .html files into the destination, te option -u refers to copy all files that are updated.
