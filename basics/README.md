@@ -11,4 +11,4 @@ rm -r /tmp/my_first_directory: delete the directory mentioned.
 cd - : changes the working directory to the previous one.
 ls -la ../basics ../ /boot: list all files of the directories mentioned, in long format
 file /tmp/iamafile : prints the type of the file mentioned
-ln /bin/ls __ls__ : Creates a symbolic link in the mentioned path.
+ln -s /bin/ls __ls__ : Creates a symbolic link in the mentioned path.
