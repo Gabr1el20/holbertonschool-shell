@@ -1,2 +1,3 @@
 su betty: switch user to betty
 whoami : prints the effective username of the current user
+groups : prints all the groups the user is part in
