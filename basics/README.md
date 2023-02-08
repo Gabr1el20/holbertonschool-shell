@@ -9,3 +9,4 @@ mv /tmp/betty /tmp/my_first_directory: move the file "betty" to the directory "m
 rm /tmp/my_first_directory/betty: delete the file betty in the descripted directory
 rm -r /tmp/my_first_directory: delete the directory mentioned.
 cd - : changes the working directory to the previous one.
+ls -a ../basics ../ /boot: list all files of the directories mentioned.
