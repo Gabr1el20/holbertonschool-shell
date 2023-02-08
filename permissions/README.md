@@ -9,3 +9,4 @@ chmod 555 hello :
 ch mod 007 hello :
 chmod 753 hello :
 chmod --reference=olleh hello : take reference from the "olleh" file.
+chmod -R a+x /holbertonschool-shell/permissions : adds execute permisions to all in the subdirectories of the designed directory.
