@@ -8,3 +8,4 @@ chmod 754 hello : grant all the permissions to the owner, read and execute to th
 chmod 555 hello :
 ch mod 007 hello :
 chmod 753 hello :
+chmod --reference=olleh hello : take reference from the "olleh" file.
