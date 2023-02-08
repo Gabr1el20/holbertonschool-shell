@@ -7,3 +7,4 @@ ls -lan: Display current directory contents in long format,hiddden files and wit
 mkdir /tmp/my_first_directory: creates a directory named my_first_directory in the /tmp/ directory.
 mv /tmp/betty /tmp/my_first_directory: move the file "betty" to the directory "my_first_directory"
 rm /tmp/my_first_directory/betty: delete the file betty in the descripted directory
+rm /tmp/my_first_directory: delete the directory mentioned.
