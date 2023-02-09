@@ -15,3 +15,4 @@ chgrp school hello : change the group to school for the file "hello"
 chown -R vincent:staff /holbertonschool-shell/permissions :
 chown -h vincent:staff _hello :
 chown --from=guillaume vincent hello
+find ./ -type d print0 | xargs -0 chmod a+x : find in the current directory, all the directories and changes their mode.
