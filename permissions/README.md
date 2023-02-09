@@ -14,3 +14,4 @@ mkdir -m u=rwx,g=rx,o=x my_dir : creates a directory whit the assigned permissio
 chgrp school hello : change the group to school for the file "hello"
 chown -R vincent:staff /holbertonschool-shell/permissions :
 chown -h vincent:staff _hello :
+chown --from=guillaume vincent hello
