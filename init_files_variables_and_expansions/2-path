@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdir /bin/action
+export PATH="/bin/action:$PATH"
